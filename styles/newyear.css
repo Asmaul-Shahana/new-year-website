@@ -9,7 +9,7 @@
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 100vh;
 }
 
 .banner {
