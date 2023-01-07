@@ -47,12 +47,7 @@
     background-color: rgb(218, 71, 13);
 }
 
-main {
-    /* max-width: 1140px; */
-    /* margin: 0 auto; */
-}
-
-/* My failures styles */
+/* My failures section styles */
 .failures {
     display: flex;
     margin: 131px 210px 131px 210px;
@@ -102,7 +97,7 @@ ul {
     color: #16d887;
 }
 
-/* My plans styles */
+/* My plans section styles */
 .plan {
     margin: 0 230px 0 230px;
 }
@@ -136,7 +131,7 @@ ul {
     color: #737272;
 }
 
-/* Positive mindset image styles */
+/* Positive mindset section styles */
 
 .positive-mindset {
     margin: 130px 230px;
@@ -174,112 +169,128 @@ ul {
 .white-btn:hover {
     background-color: rgb(252, 210, 194);
 }
-/* daily reminder styles */
-.daily-reminder{
+
+/* daily reminder section styles */
+
+.daily-reminder {
     margin: 0 230px 130px 230px;
 }
 
-.daily-reminder-title{
+.daily-reminder-title {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 50px;
 }
 
-.daily-reminder-container{
+.daily-reminder-container {
     display: flex;
     gap: 40px;
 }
 
-.reminder1{
+.reminder1 {
     background-color: rgb(255, 215, 213, 0.6);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     border-radius: 7px;
     padding: 50px 40px;
 }
-.reminder2{
-    background-color: rgb(244, 203, 250,0.6);
+
+.reminder2 {
+    background-color: rgb(244, 203, 250, 0.6);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     border-radius: 7px;
     padding: 50px 40px;
 }
-.reminder3{
-    background-color: rgb(203, 237, 250,0.6);
+
+.reminder3 {
+    background-color: rgb(203, 237, 250, 0.6);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     border-radius: 7px;
     padding: 50px 40px;
 }
-.reminder-title{
+
+.reminder-title {
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 20px;
 }
-.reminder-description{
-    color: rgb(112,112,112);
+
+.reminder-description {
+    color: rgb(112, 112, 112);
     font-size: 18px;
     line-height: 26px;
 }
-.fa-regular.fa-clock{
+
+.fa-regular.fa-clock {
     font-size: 50px;
     padding-bottom: 20px;
-    color:#444343;
+    color: #444343;
 }
 
-.fa-regular.fa-thumbs-up{
+.fa-regular.fa-thumbs-up {
     font-size: 50px;
     padding-bottom: 20px;
-    color:#444343;
+    color: #444343;
 }
 
-.fa-solid.fa-laptop-code{
+.fa-solid.fa-laptop-code {
     font-size: 50px;
     padding-bottom: 20px;
-    color:#444343;
+    color: #444343;
 }
 
 /* Footer styles */
-.footer{
+
+.footer {
     background-color: #151414;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     margin: 0 230px;
 }
-.future{
+
+.future {
     color: #f8f8f8;
     padding: 130px 330px 130px 0;
 }
-.future-title{
+
+.future-title {
     font-size: 45px;
     font-weight: 700;
     padding-bottom: 16px;
 }
-.future-description{
+
+.future-description {
     padding-bottom: 30px;
     line-height: 26px;
     font-weight: 200;
     font-size: 16px;
 }
-.future a{
-        text-decoration: none;
-        padding-right: 17px;
-        color: #f8f8f8;
+
+.future a {
+    text-decoration: none;
+    padding-right: 17px;
+    color: #f8f8f8;
 }
-.subscribe{
+
+.subscribe {
     padding: 130px 0 130px 0;
 }
-.subscribe-title{
+
+.subscribe-title {
     color: #f8f8f8;
     font-size: 25px;
     font-weight: 400;
     padding-bottom: 30px;
 }
-#email{
+
+#email {
     font-size: 18px;
     font-weight: 400;
     padding: 20px;
-    width: 285px; 
+    width: 285px;
     background-color: transparent;
     border: 1px solid #f8f8f8;
     border-radius: 6px;
