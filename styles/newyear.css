@@ -55,7 +55,7 @@ main {
 /* My failures styles */
 .failures {
     display: flex;
-    margin: 131px 322px 131px 215px;
+    margin: 131px 210px 131px 210px;
     gap: 100px;
 }
 
@@ -72,7 +72,7 @@ main {
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 24px;
-    padding-right: 100px;
+    padding-right: 170px;
     padding-top: 210px;
 }
 
@@ -82,7 +82,7 @@ main {
     color: #444343;
     line-height: 30px;
     padding-bottom: 16px;
-    padding-right: 100px;
+    padding-right: 130px;
 }
 
 .failure-list {
@@ -173,6 +173,68 @@ ul {
 
 .white-btn:hover {
     background-color: rgb(252, 210, 194);
+}
+/* daily reminder styles */
+.daily-reminder{
+    margin: 0 230px 130px 230px;
+}
+
+.daily-reminder-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.daily-reminder-container{
+    display: flex;
+    gap: 40px;
+}
+
+.reminder1{
+    background-color: rgb(255, 215, 213, 0.6);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 50px 40px;
+}
+.reminder2{
+    background-color: rgb(244, 203, 250,0.6);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 50px 40px;
+}
+.reminder3{
+    background-color: rgb(203, 237, 250,0.6);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 50px 40px;
+}
+.reminder-title{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.reminder-description{
+    color: rgb(112,112,112);
+    font-size: 18px;
+    line-height: 26px;
+}
+.fa-regular.fa-clock{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color:#444343;
+}
+
+.fa-regular.fa-thumbs-up{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color:#444343;
+}
+
+.fa-solid.fa-laptop-code{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color:#444343;
 }
 
 /* Footer styles */
